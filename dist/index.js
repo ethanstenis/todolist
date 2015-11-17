@@ -1,0 +1,5 @@
+'use strict';
+
+var name = 'Ethan Luke Stenis';
+console.log(name);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsSUFBTSxJQUFJLEdBQUcsbUJBQW1CLENBQUM7QUFDaEMsT0FBTyxDQUFDLEdBQUcsQ0FBQyxJQUFJLENBQUMsQ0FBQyIsImZpbGUiOiJpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IG5hbWUgPSAnRXRoYW4gTHVrZSBTdGVuaXMnO1xuXHRjb25zb2xlLmxvZyhuYW1lKTtcbiJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==

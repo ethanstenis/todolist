@@ -1,0 +1,29 @@
+{
+  "name": "htmlintermediatecode",
+  "version": "1.0.0",
+  "description": "Code Files for HTMLIntermediate Class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austincodingacademy/HTMLIntermediate.git"
+  },
+  "author": "Rob Lowe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/austincodingacademy/HTMLIntermediate/issues"
+  },
+  "homepage": "https://github.com/austincodingacademy/HTMLIntermediate#readme",
+  "devDependencies": {
+    "babel-eslint": "^4.1.0",
+    "eslint": "^1.3.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-watch": "^4.3.4"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ethan Luke Stenis is a professional Web Developer in Austin, Texas specializing in interactive web design, digital strategy and content development.">
+    <!-- Page Title -->
+    <title>Ethan Luke Stenis | Daily To-Do List</title>
+    <!-- CSS, Font Awesome, Bootstrap, Google Fonts links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+</head>
+
+<body onload="updateClock(); setInterval('updateClock()', 1000)">
+    <!-- Making a To-Do List Section -->
+    <section id="to-do-list" class="container-fluid">
+        <div id="clock" class="text-center">&nbsp;</div>
+        <h1 class="text-center">Hello, Master</h1>
+        <div class="container layer text-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>How are we changing the world today?</p>
+                </div>
+                <div class="col-sm-12">
+                    <input type="text" id="textBox" placeholder="Enter Task Here *">
+                </div>
+                <div class="col-sm-12">
+                    <button id="btnAdd" class="cBtn"><a href="#">Add Task</a></button>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul id="todoList">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="src/jquery-1.11.3.min.js"></script>
+    <script src="src/bootstrap.min.js"></script>
+    <script src="dist/to-do-list.js"></script>
+</body>
+
+</html>

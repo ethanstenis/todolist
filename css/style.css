@@ -1,0 +1,132 @@
+/*html*/
+
+html,
+body {
+    height: 100%;
+    background-image: url(../img/Orion-Nebula.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section {
+    padding: 50px 0px;
+    overflow: auto;
+}
+
+/* TO-DO LIST Section */
+
+#clock {
+    font-family: 'Roboto', 'sans-serif';
+    font-style: bold;
+    font-size: 100px;
+    color: #1ED9B6;
+    line-height: 120px;
+    margin-top: 30px;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+#to-do-list {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+    height: 100%;
+}
+
+
+#to-do-list h1 {
+    font-family: 'Roboto', 'sans-serif';
+    font-style: bold;
+    font-size: 100px;
+    color: white;
+    line-height: 75px;
+    margin-top: 30px;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+#to-do-list p {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 36px;
+    color: white;
+    line-height: 50px;
+    margin: 10px 0px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#to-do-list button {
+    height: 50px;
+    width: 300px;
+    border-style: solid;
+    background-color: #F90E7D;
+    border-color: #B00A58;
+    border-width: 2px;
+    padding: 0px 20px;
+    font-size: 24px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    text-decoration: none;
+    outline: none;
+}
+
+
+#to-do-list button a {
+    font-family: 'Roboto', 'sans-serif';
+    text-decoration: none;
+    color: white;
+}
+
+#to-do-list button:hover {
+    background-color: #B00A58;
+    border-color: #B00A58;
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+    border: 0px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 300;
+    font-size: 24px;
+    color: #555555;
+    background: #ededed;
+    opacity: 0.75;
+}
+
+
+li {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 36px;
+    color: white;
+    line-height: 50px;
+    margin: 10px 0px;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+    margin-left: 10px;
+    line-height: 36px;
+    text-align: center;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: #F90E7D;
+}
+
+ul > li > #toDoItem {
+    background-color: white;
+    border-width: 2px;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
